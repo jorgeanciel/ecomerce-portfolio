@@ -1,0 +1,56 @@
+.container__header {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dcd9d9;
+    position: fixed;
+    background-color: #fff;
+    z-index: 1;
+    padding: 0 1rem;
+}
+
+.container__header a {
+    color: #ff6e00;
+}
+
+.container__header nav {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.container__header ul {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container__header ul li {
+    border-left: 1px solid #dcd9d9;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__carticon {
+    position: relative;
+}
+
+.quantity__purchase {
+    padding: .1rem;
+    position: absolute;
+    border-radius: 50%;
+    width: 1.5rem;
+    text-align: center;
+    background-color: #4D455D;
+    color: #fff;
+    top: 1.8rem;
+    left: 55%;
+}

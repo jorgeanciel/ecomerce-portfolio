@@ -1,0 +1,51 @@
+.container__prodDescription {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.container__prodDescription p {
+    text-align: justify;
+}
+
+.container__prodDescription h3 {
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+}
+
+.container__quantity {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin: 2rem 4rem;
+    gap: 2rem;
+    align-items: center;
+}
+
+.container__quantity button {
+    background-color: #ff6e00;
+    padding: .3rem;
+    border-radius: .2rem;
+    color: #fff;
+    width: 3rem;
+    transition: transform 100ms ease;
+}
+
+.container__quantity button:hover {
+    transform: scale(1.05);
+}
+
+.container__buttonAdd {
+    display: flex;
+    justify-content: center;
+}
+
+.add__tocart {
+    background-color: #ff6e00;
+    padding: .3rem;
+    border-radius: .2rem;
+    color: #fff;
+    width: 50%;
+    transition: transform 100ms ease;
+}

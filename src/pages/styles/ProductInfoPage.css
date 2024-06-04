@@ -1,0 +1,16 @@
+.container__product-info {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 2rem;
+}
+
+.container__slide-prod {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.similar__products {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
